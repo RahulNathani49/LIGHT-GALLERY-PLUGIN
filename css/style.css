@@ -1,0 +1,28 @@
+body {
+    background-color: #d8d5d5;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    transition: .5s;
+    width: 100%;
+    border-radius: 10px;
+}
+
+img:hover {
+    transform: scale(1.05);
+    transition: .5s;
+    cursor: pointer;
+    box-shadow: 0 8px 20px -4px rgba(0, 0, 0, .16);
+}
